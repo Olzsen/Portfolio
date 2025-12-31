@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Olzsen - frontend dev</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">Olzsen</h1>
+      <nav>
+        <input type="checkbox" id="burger-toggle" />
+        <label for="burger-toggle">
+          <span></span>
+        </label>
+        <ul>
+          <li class="nav-type"><a href="#about-me">Обо мне</a></li>
+          <li class="nav-type"><a href="#skills">Навыки</a></li>
+          <li class="nav-type"><a href="#projects">Проекты</a></li>
+          <li class="nav-type"><a href="#contacts">Связь</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="hero-head">
+          <span class="hero-text" id="about-me">Frontend</span>
+          <br />
+          <span class="hero-text">Developer</span>
+          <br />
+          <div id="hero-value">
+            <p>
+              Я начинающий frontend разработчик, на данный момент мне 15 лет.
+              Моя цель стать full-stack разработчиком.
+            </p>
+            <p>
+              Это портфолио является моим первым проектом. Пока что тут только
+              HTML и CSS, но вскоре я добавлю JavaScript
+            </p>
+          </div>
+          <section id="contacts">
+            <button id="contact" onclick="window.location.href='https:/t.me/voprosy?start=w9ap95'">
+              Связаться
+            </button>
+          </section>
+          <span class="namer">Мой стек</span>
+        </div>
+        <img src="img/avatar.jpg" alt="Аватарка" id="avatar" />
+      </section>
+      <section id="skills">
+        <div class="block">
+          <h3>Frontend development</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="block">
+          <h3>Backend development</h3>
+          <p>none</p>
+        </div>
+      </section>
+      <section id="projects">
+        <span class="namer">Мои проекты</span>
+        <div id="space">
+          <div class="project">
+            <strong>Портфолио</strong>
+            <p>Языки</p>
+            <span>
+              <img src="img/html.png" alt="html" height="15">
+              HTML
+            </span>
+            <br>
+            <span>
+              <img src="img/css.png" alt="css" height="15">
+              CSS
+            </span>
+            <br>
+            <span>
+              <img src="img/js.png" alt="js" height="15">
+              JS
+            </span>
+            <p><a href="#">Ссылка</a></p>
+          </div>
+          <div class="project">
+            <strong>Лендинг</strong>
+            <p>Языки</p>
+            <span>
+              <img src="img/html.png" alt="html" height="15">
+              HTML
+            </span>
+            <br>
+            <span>
+              <img src="img/css.png" alt="css" height="15">
+              CSS
+            </span>
+            <p><a href="#">Ссылка</a></p>
+          </div>
+          <div class="project">
+            <strong>Лендинг</strong>
+            <p>Языки</p>
+            <span>
+              <img src="img/html.png" alt="html" height="15">
+              HTML
+            </span>
+            <br>
+            <span>
+              <img src="img/css.png" alt="css" height="15">
+              CSS
+            </span>
+            <p><a href="#">Ссылка</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy 2025 Olzsen. Учебный проект-портфолио</p>
+      <div id="social">
+        <a href="https://github.com/Olzsen" target="_blank"
+          ><img src="img/github.png" alt="Логотип GitHub" class="social-img"
+        /></a>
+        <a href="https://t.me/+rMecNpH_LHZiNzcy" target="_blank"
+          ><img src="img/tg.png" alt="Логотип TG" class="social-img"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
